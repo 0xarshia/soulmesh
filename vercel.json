@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "functions": {
+    "api/sensay-chat.ts": {
+      "runtime": "nodejs18.x"
+    },
+    "api/sensay-reply-suggestions.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
