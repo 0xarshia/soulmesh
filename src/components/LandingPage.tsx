@@ -53,7 +53,9 @@ const LandingPage = () => {
 
           {/* Main CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <button className="group relative px-8 py-4 bg-gradient-to-r from-pink-500 to-pink-600 rounded-2xl text-white font-semibold text-lg shadow-2xl hover:shadow-pink-500/25 transform hover:scale-105 transition-all duration-300">
+            <button 
+            onClick={() => window.open('https://github.com/0xarshia/SoulMeshAi-Extension', '_blank')}
+            className="group relative px-8 py-4 bg-gradient-to-r from-pink-500 to-pink-600 rounded-2xl text-white font-semibold text-lg shadow-2xl hover:shadow-pink-500/25 transform hover:scale-105 transition-all duration-300">
               <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-pink-500 rounded-2xl blur opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
               <div className="relative flex items-center space-x-3">
                 <Download className="w-6 h-6" />
@@ -68,7 +70,7 @@ const LandingPage = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 rounded-2xl blur opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
               <div className="relative flex items-center space-x-3">
                 <TestTube className="w-6 h-6" />
-                <span>Test Extension</span>
+                <span>Test Extension (Without Install)</span>
               </div>
             </button>
           </div>
