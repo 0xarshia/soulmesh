@@ -72,7 +72,7 @@ You can experience the reply suggestions and chatbot directly in your browser—
 ---
 
 ## 📸 Demo 
-<img src="https://i.imgur.com/wgJpCqJ.png" alt="SoulMesh Demo" width="700"/> <img src="https://i.imgur.com/10RuzZE.png" alt="SoulMesh Demo" width="228" />
+<img src="https://i.imgur.com/sjgSqpG.png" alt="SoulMesh Demo" width="1000"/>
 
 
 ---
